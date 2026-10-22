@@ -1,0 +1,119 @@
+{
+ "name": "Coiffeur Hommes",
+ "tagline": "Angélique · Verniolle (Ariège)",
+ "city": "Verniolle",
+ "address": "4 Pl. de l'Église, 09340 Verniolle",
+ "phone": "06 42 27 52 93",
+ "tel": "+33642275293",
+ "rating": "5,0",
+ "reviews_count": "76",
+ "about": "Sur la place de l'Église, dans le Tabac Presse Épicerie de Verniolle, Angélique coiffe hommes et enfants — coupe, dégradé, barbe — au rasoir électrique ou au coupe-choux, au choix. Ses clients parlent d'une coiffeuse souriante, patiente avec les petits, et de tarifs qui défient toute concurrence. Rendez-vous adaptés à vos horaires.",
+ "services": [
+  [
+   "Coupe homme",
+   "sur demande"
+  ],
+  [
+   "Dégradé",
+   "sur demande"
+  ],
+  [
+   "Taille / soin de barbe",
+   "sur demande"
+  ],
+  [
+   "Coupe enfant",
+   "sur demande"
+  ],
+  [
+   "Coupe militaire (partenariat)",
+   "10 €"
+  ]
+ ],
+ "services_note": "Tarifs à confirmer par téléphone. Tarif militaires de 10 € indiqué par le salon en réponse à un avis client.",
+ "hours": [
+  [
+   "Lundi",
+   "Fermé"
+  ],
+  [
+   "Mardi",
+   "09:00–19:00"
+  ],
+  [
+   "Mercredi",
+   "09:00–19:00"
+  ],
+  [
+   "Jeudi",
+   "09:00–19:00"
+  ],
+  [
+   "Vendredi",
+   "09:00–19:00"
+  ],
+  [
+   "Samedi",
+   "08:00–12:30"
+  ],
+  [
+   "Dimanche",
+   "Fermé"
+  ]
+ ],
+ "payment": "Espèces ou chèque uniquement (pas de carte bancaire)",
+ "reviews": [
+  [
+   "Isabelle",
+   "Ravie de mon expérience au salon ! Angélique a été patiente, efficace et très douce avec mon petit de 2 ans. Elle a réalisé une coupe impeccable et le prix défie toute concurrence.",
+   "22/10/2024"
+  ],
+  [
+   "Corantin",
+   "Une coiffeuse où je vais 1x/an en redescendant en Ariège, et j'y retourne chaque année sans hésiter. J'aime faire des dégradés bas à blanc, et c'est à chaque fois réussi.",
+   "10/06/2026"
+  ],
+  [
+   "Chloé",
+   "Personne très agréable, souriante et professionnelle. Elle met à l'aise. Petit plus, il y a le choix entre rasoir électrique ou coupe-choux.",
+   "27/09/2024"
+  ],
+  [
+   "Eric",
+   "Rendez-vous rapide, bien reçu, bien coiffé, prix raisonnable, que demander de plus, parfait.",
+   "02/03/2026"
+  ],
+  [
+   "Julien",
+   "J'ai le plaisir d'y aller avec mon fils. Nous sommes tous deux très satisfaits ! Au top !",
+   "17/06/2026"
+  ]
+ ],
+ "social": [
+  [
+   "Facebook",
+   "https://www.facebook.com/p/Coiffeur-Hommes-Verniolle-Angelique-100004299015342/"
+  ]
+ ],
+ "booking": "",
+ "name_html": "Coiffeur <b>Hommes</b>",
+ "hero": "img/p9.webp?v=1792700241",
+ "gallery": [
+  {
+   "lg": "img/p9.webp?v=1792700241",
+   "sm": "img/p9-sm.webp?v=1792700241"
+  },
+  {
+   "lg": "img/p1.webp?v=1792700241",
+   "sm": "img/p1-sm.webp?v=1792700241"
+  },
+  {
+   "lg": "img/p2.webp?v=1792700241",
+   "sm": "img/p2-sm.webp?v=1792700241"
+  }
+ ],
+ "coords": [
+  43.0812027,
+  1.6486756
+ ]
+}
