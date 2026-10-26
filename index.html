@@ -1,17 +1,20 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#5a1a1f">
 <title>Coiffeur Hommes – Verniolle</title><meta name="description" content="Coiffeur Hommes, Angélique · Verniolle (Ariège). 4 Pl. de l'Église, 09340 Verniolle. Tél. 06 42 27 52 93.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=hc1"></head><body>
-<header class="hero" id="top"><div class="bgimg"></div><div class="inner"><h1 id="h-name"></h1><p class="tag" id="h-tag"></p><p><span class="stars" id="h-rating"></span></p>
-<a class="btn" id="h-call" href="#">📞 Appeler</a><a class="btn ghost" id="h-book" href="#" target="_blank" rel="noopener">Réserver en ligne</a></div></header>
-<nav><a href="#about">Le salon</a><a href="#services">Prestations</a><a href="#gallery">Galerie</a><a href="#reviews">Avis</a><a href="#hours">Horaires</a><a href="#map">Accès</a></nav>
-<section id="about"><h2>Le salon</h2><p id="about-t"></p></section>
-<section id="services"><h2>Prestations</h2><div class="services" id="svc"></div><p class="mut" id="svc-note"></p><p class="mut" id="pay"></p></section>
-<section id="gallery"><h2>Galerie</h2><div class="gallery" id="gal"></div></section>
-<section id="reviews"><h2>Avis clients</h2><p class="mut" id="rev-sum"></p><div class="revs" id="revs"></div></section>
-<section id="hours"><h2>Horaires</h2><table id="hrs"></table><p class="mut">Horaires indicatifs (Google), jours fériés : à confirmer.</p></section>
-<section id="map"><h2>Accès</h2><p id="addr"></p><iframe loading="lazy" id="osm" title="Carte"></iframe><p><a id="osml" target="_blank" rel="noopener">Ouvrir la carte</a> · <a id="gmaps" target="_blank" rel="noopener">Itinéraire Google Maps</a></p></section>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=viv1"></head><body>
+<header class="hero" id="top"><div class="bgimg"></div><div class="inner"><span class="kicker">Coiffeur · Barbier · Hommes &amp; enfants</span><h1 id="h-name"></h1><p class="tag" id="h-tag"></p>
+<a class="badge" id="h-rating" href="#reviews"></a><p class="open" id="h-open" hidden></p>
+<div class="ctas"><a class="btn big" id="h-call" href="#">Appeler</a><a class="btn ghost" id="h-dir" href="#" target="_blank" rel="noopener">Itinéraire</a><a class="btn ghost" id="h-book" href="#" target="_blank" rel="noopener">Réserver en ligne</a></div></div></header>
+<nav aria-label="Sections"><a href="#about">Le salon</a><a href="#services">Prestations</a><a href="#gallery">Galerie</a><a href="#reviews">Avis</a><a href="#hours">Horaires</a><a href="#map">Accès</a></nav>
+<section id="about" class="rv"><h2>Le salon</h2><p id="about-t" class="lead"></p></section>
+<div class="band"><section id="services" class="rv"><h2>Prestations</h2><div class="services" id="svc"></div><p class="mut" id="svc-note"></p><p class="pay" id="pay"></p></section></div>
+<section id="gallery" class="rv"><h2>Galerie</h2><div class="gallery" id="gal"></div></section>
+<div class="band dark"><section id="reviews" class="rv"><h2>Avis clients</h2><p class="sum" id="rev-sum"></p><div class="revs" id="revs"></div></section></div>
+<section id="hours" class="rv"><h2>Horaires</h2><p class="open" id="o-open" hidden></p><table id="hrs"></table><p class="mut">Horaires indicatifs (Google), jours fériés : à confirmer.</p></section>
+<section id="map" class="rv"><h2>Accès</h2><p id="addr"></p><iframe loading="lazy" id="osm" title="Carte"></iframe><p><a id="osml" target="_blank" rel="noopener">Ouvrir la carte</a> · <a id="gmaps" target="_blank" rel="noopener">Itinéraire Google Maps</a></p></section>
+<div class="cta-band"><div class="rv"><h2>Envie d'une coupe nette&nbsp;?</h2><p>Sur rendez-vous, 4 place de l'Église à Verniolle.</p><a class="btn big light" id="c-call" href="#">Appeler</a><a class="btn ghost" id="c-dir" href="#" target="_blank" rel="noopener">Venir au salon</a></div></div>
 <footer><p class="soc" id="soc"></p><p id="foot"></p></footer>
-<a class="btn callfab" id="fab" href="#" aria-label="Appeler">📞</a>
-<div id="lb"><button class="x" aria-label="Fermer">×</button><button class="p" aria-label="Précédente">‹</button><img alt=""><button class="n" aria-label="Suivante">›</button></div>
-<script src="assets/app.js?v=1792700241"></script></body></html>
+<a class="callfab" id="fab" href="#" aria-label="Appeler le salon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></a>
+<a class="callbar" id="bar" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg><span id="bar-t">Appeler</span></a>
+<div id="lb" role="dialog" aria-label="Photo agrandie"><button class="x" aria-label="Fermer">×</button><button class="p" aria-label="Précédente">‹</button><img alt=""><button class="n" aria-label="Suivante">›</button></div>
+<script src="assets/app.js?v=viv1"></script></body></html>
